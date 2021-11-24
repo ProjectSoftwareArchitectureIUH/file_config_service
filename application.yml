@@ -6,7 +6,7 @@
   "state": null,
   "propertySources": [
       {
-        "name": "https://github.com/ProjectSoftwareArchitectureIUH/file_config_service/blob/dd09bc12e50b9ce4989cb28a7c8579f61d154006/application.yml",
+        "name": "https://github.com/ProjectSoftwareArchitectureIUH/file_config_service/blob/main/application.yml",
         "source": {
         "welcome": "HELLO PHAM XUAN LOC",
         "lm":"hihi"
