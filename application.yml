@@ -1,16 +1,10 @@
-{
-  "name": "application",
-  "profiles": ["default"],
-  "label": null,
-  "version": "",
-  "state": null,
-  "propertySources": [
-      {
-        "name": "https://github.com/ProjectSoftwareArchitectureIUH/file_config_service/blob/main/application.yml",
-        "source": {
-        "welcome": "HELLO PHAM XUAN LOC",
-        "lm":"hihi"
-       }
-      }
-  ]
-}
+eureka:
+  client:
+    register-with-eureka:
+      value: true
+    fetch-registry:
+      value: true;
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    instance:
+      hostname: localhost
