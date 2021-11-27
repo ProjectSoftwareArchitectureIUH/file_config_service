@@ -1,12 +1,10 @@
 eureka:
+  instance:
+    hostname: servicecloudconfig.herokuapp.com
+    homePageUrl: https://${eureka.instance.hostName}/
+    home-page-url-path: https://${eureka.instance.hostName}
   client:
-    register-with-eureka:
-      value: true
-    fetch-registry:
-      value: true;
-    service-url:
-      defaultZone: http://eureka.herokuapp.com/eureka
+    serviceUrl:
+      defaultZone: http://servicediscorvery.herokuapp.com/eureka
       non-secure-port: 80
       secure-port: 443
-    instance:
-      hostname: localhost
