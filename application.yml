@@ -1,11 +1,1 @@
 message: WELLCOME TO NGUYEN VAN LEN GITHUB CLOUD C !!!
-
-eureka:
-  instance:
-    homePageUrl: https://${eureka.instance.hostName}/
-    home-page-url-path: https://${eureka.instance.hostName}
-  client:
-    serviceUrl:
-      defaultZone: http://servicediscorvery.herokuapp.com/eureka
-      non-secure-port: 80
-      secure-port: 443
