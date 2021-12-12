@@ -2,6 +2,7 @@ eureka:
   instance:
     hostname: servicecloudconfig.herokuapp.com
     homePageUrl: https://${eureka.instance.hostName}/    
-    home-page-url-path: https://${eureka.instance.hostName}  client:
+    home-page-url-path: https://${eureka.instance.hostName}  
+    client:
     serviceUrl:
       defaultZone: http://servicediscorvery.herokuapp.com/eureka
